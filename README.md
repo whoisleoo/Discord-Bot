@@ -20,3 +20,11 @@ Feito isso, o link para invite do bot será criado, copie e cole ele em seu nave
 
 **Pronto!**  ✔️  
 Teste utilizando o comando **"/horarios".**
+
+
+# 📋 Futuras Melhorias
+
+* **Ainda não criei um sistema que atualiza o PDF automaticamente, mas isso já está nos meus planos e futuramente vou tentar implementar.**
+  
+* Existem apenas três cursos disponiveis sendo eles (**engsoft, biomed, direito**). Futuramente, serão adicionados mais cursos.
+
