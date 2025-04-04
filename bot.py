@@ -8,7 +8,7 @@ intents = discord.Intents.default();
 intents.message_content = True;
 
 bot = commands.Bot(command_prefix='!', intents=intents);
-        #Link do PDF de todos os ensalamentos.
+        #Link do PDF de todos os ensalamentos, se precisar atualizar cole o novo PDF aqui:
 url = "https://guarapuava.camporeal.edu.br/content/uploads/2025/04/Ensalamentos_-PRE-PROVAS-noturno-03.04-e-04.04.2025-1.pdf";
 
 
@@ -56,5 +56,5 @@ async def horarios(interaction: discord.Interaction, curso: str = None):
     else:
         await interaction.followup.send("**❌ Curso não foi encontrado.**");
 
-        
+#Cole seu token aqui:
 bot.run('');
