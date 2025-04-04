@@ -16,7 +16,18 @@ Discord Developer Portal:
 * **Após a criação, entre na aba "BOT" e copie o link do Token, e cole dentro do código "bot.run('')".**
 
 * **Dentro da aba "OAuth2" selecione as categorias "bot" "applications_command" e "Administrator".**                                                                                                                                   
-Feito isso, o link para invite do bot será criado, copie e cole ele em seu navegador e selecione seu servidor. Feito isso, inicie o **bot.py**.
+Feito isso, o link para invite do bot será criado, copie e cole ele em seu navegador e selecione seu servidor.
+
+Antes de iniciar seu código, é necessário as seguintes bibliotecas:
+
+* **pip install requests**
+* **pip install discord**
+* **pip install pdf2image**
+
+Se mesmo assim, o código der erro sugiro que instale o **poppler**.
+Você pode estar baixando ele aqui: **https://github.com/oschwartz10612/poppler-windows/releases.**
+
+Feito isso, inicie o **bot.py**.
 
 **Pronto!**  ✔️  
 Teste utilizando o comando **"/horarios".**
