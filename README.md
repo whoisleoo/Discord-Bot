@@ -24,8 +24,8 @@ Antes de iniciar seu código, é necessário as seguintes bibliotecas:
 * **pip install discord**
 * **pip install pdf2image**
 
-Se mesmo assim, o código der erro sugiro que instale o **poppler**.
-Você pode estar baixando ele aqui: **https://github.com/oschwartz10612/poppler-windows/releases.**
+Se mesmo assim, o código encontrar um erro sugiro que instale o **poppler**.
+Você pode estar instalando ele aqui: **https://github.com/oschwartz10612/poppler-windows/releases.**
 
 Feito isso, inicie o **bot.py**.
 
