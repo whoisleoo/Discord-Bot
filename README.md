@@ -28,3 +28,5 @@ Teste utilizando o comando **"/horarios".**
   
 * Existem apenas três cursos disponiveis sendo eles (**engsoft, biomed, direito**). Futuramente, serão adicionados mais cursos.
 
+
+*obs: a ideia pra esse projeto vai pro meu amigo Gabriel.*
