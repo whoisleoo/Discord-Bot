@@ -37,7 +37,7 @@ Teste utilizando o comando **"/horarios".**
 
 * **Foi criado um sistema que puxa a Data e aplica no PDF, não é 100% preciso já que infelizmente o programa é dependente das atualizações diarias do PDF.**
 
-* **Lista dos cursos disponiveis para pesquisa:**
+**Lista dos cursos disponiveis para pesquisa:**
 - [X] Bio Medicina 
 - [X] Engenharia de Software 
 - [X] Direito
