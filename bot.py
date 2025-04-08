@@ -30,7 +30,7 @@ async def on_ready():
     print(f'👨‍💻 {len(sincronizado)} comandos registrados.');
 
 @bot.tree.command(name="horarios", description="📋 ver o ensalamento de cada curso")       
-@app_commands.describe(curso="Cursos Disponiveis (engsoft, biomed, direito)")
+@app_commands.describe(curso="Cursos Disponiveis (engsoft, biomed, direito, fisio, psico)")
 async def horarios(interaction: discord.Interaction, curso: str = None):
     await interaction.response.defer();
     response = requests.get(url, stream=True);
