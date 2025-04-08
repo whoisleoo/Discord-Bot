@@ -25,7 +25,7 @@ Antes de iniciar seu código, é necessário as seguintes bibliotecas:
 * **pip install pdf2image**
 
 Se mesmo assim, o código encontrar um erro sugiro que instale o **poppler**.
-Você pode estar instalando ele [aqui](https://github.com/oschwartz10612/poppler-windows/releases.).
+Você pode estar instalando ele [aqui](https://github.com/oschwartz10612/poppler-windows/releases).
 Não esqueça de colocar o poppler no seu **PATH**.
 
 Feito isso, inicie o **bot.py**.
