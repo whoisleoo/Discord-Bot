@@ -33,12 +33,19 @@ Feito isso, inicie o **bot.py**.
 Teste utilizando o comando **"/horarios".**
 
 
-# 📋 Futuras Melhorias
+# 🚀 Updates
 
-* ###### Ainda não criei um sistema que atualiza o PDF automaticamente, mas isso já está nos meus planos e futuramente vou tentar implementar.
 * **Foi criado um sistema que puxa a Data e aplica no PDF, não é 100% preciso já que infelizmente o programa é dependente das atualizações diarias do PDF.**
-  
-* Existem apenas três cursos disponiveis sendo eles (**engsoft, biomed, direito**). Futuramente, serão adicionados mais cursos.
 
+* **Lista dos cursos disponiveis para pesquisa:**
+- [X] Bio Medicina 
+- [X] Engenharia de Software 
+- [X] Direito
+- [X] Psicologia
+- [X] Fisioterapia 
+- [ ] Engenharia Mecanica 
+- [ ] Arquitetura 
+- [ ] Administração
+- [ ] Enfermagem
 
 *obs: a ideia pra esse projeto vai pro meu amigo Gabriel.*
