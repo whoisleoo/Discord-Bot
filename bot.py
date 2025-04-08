@@ -48,7 +48,9 @@ async def horarios(interaction: discord.Interaction, curso: str = None):
     paginaCursos = {
         "engsoft" : 6,
         "biomed" : 1,
-        "direito" : 2
+        "direito" : 2,
+        "psico" : 10,
+        "fisio" : 8 
     }
 
     if curso is None:
