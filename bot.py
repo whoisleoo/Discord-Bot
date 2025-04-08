@@ -1,16 +1,26 @@
 import requests
 import discord
+import datetime
 import pdf2image
+from datetime import datetime, timedelta
 from discord.ext import commands
 from discord import app_commands
 
 intents = discord.Intents.default();
 intents.message_content = True;
 
-bot = commands.Bot(command_prefix='!', intents=intents);
-        #Link do PDF de todos os ensalamentos, se precisar atualizar cole o novo PDF aqui:
-url = "https://guarapuava.camporeal.edu.br/content/uploads/2025/04/Ensalamentos_-PRE-PROVAS-noturno-03.04-e-04.04.2025-1.pdf";
+hoje = datetime.now()
+ontem = hoje - timedelta(days=1);
 
+dia = f"{hoje.day:02d}";
+diaAnterior = f"{ontem.day:02d}";
+mes = f"{hoje.month:02d}";
+ano = hoje.year;
+
+
+bot = commands.Bot(command_prefix='!', intents=intents);
+        #Link do PDF de todos os ensalamentos, se precisar atualizar cole o novo PDF aqui:s
+url = f"https://guarapuava.camporeal.edu.br/content/uploads/{ano}/{mes}/Ensalamentos_-PRE-PROVAS-noturno-{diaAnterior}.{mes}-e-{dia}.{mes}.{ano}.pdf";
 
 
 @bot.event
