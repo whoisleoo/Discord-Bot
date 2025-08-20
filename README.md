@@ -1,3 +1,7 @@
+````
+Esse projeto foi descontinuado devido a falta de manutenção.
+````
+
 
 # // 👨‍💻 Discord Bot
 
