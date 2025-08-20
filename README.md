@@ -6,7 +6,7 @@ Um bot criado em python que puxa o PDF de ensalamento das aulas da faculdade Cam
 
 
 
-# ❓ Como Usar
+# Como Usar
 
 Primeiramente, é necessário criar um bot no discord, você pode fazer isso pelo       
 
@@ -34,7 +34,7 @@ Feito isso, inicie o **bot.py**.
 Teste utilizando o comando **"/horarios".**
 
 
-# 🚀 Updates
+# Updates
 
 * **Foi criado um sistema que puxa a Data e aplica no PDF, não é 100% preciso já que infelizmente o programa é dependente das atualizações diarias do PDF.**
 
